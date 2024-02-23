@@ -29,7 +29,7 @@ class UserList : AppCompatActivity() {
         setContentView(R.layout.activity_user_list)
         val arrayList = arrayListOf<User>().apply {
             add(User("Vishal", 25, "Bangalore"))
-            add(User("Praveen", 26, "kolkata"))
+            add(User("Praveen", 26, "Kolkata"))
             add(User("Sagar", 27, "Chennai"))
             add(User("Sharad", 28, "New Delhi"))
             add(User("Rahul", 29, "Mumbai"))
